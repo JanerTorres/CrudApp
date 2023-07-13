@@ -1,3 +1,6 @@
 [submodule "crudapp-frontend"]
 	path = crudapp-frontend
 	url = https://github.com/JanerTorres/crudapp-frontend.git
+[submodule "crudapp-backend"]
+	path = crudapp-backend
+	url = https://github.com/JanerTorres/crudapp-backend.git
