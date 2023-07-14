@@ -34,7 +34,7 @@ Nota: Java, Maven, MySQL deben descargarse manualmente, ya que las demás son de
 - `DB_PASSWORD`: Contraseña de la base de datos
 - `PORT`: Puerto para el servidor, IMPORTANTE se debe asignar el puerto 8080, ya que en el frontend ya está configurada la constante que accede al url del Api.
 
-5. Crea la base de datos ejecutando el script `script_crud_app_bd.sql` en tu servidor de base de datos local. Esto creará la base de datos `crud_app` e insertará algunos registros de prueba.
+5. Crea la base de datos ejecutando el script `script_crud_app_bd.sql` en tu servidor de base de datos local. El archivo se encuentra en este mismo repositorio dentro de la carpeta `database/`. Esto creará la base de datos `crud_app` e insertará algunos registros de prueba.
 
 6. Finalmente, ejecuta la aplicación del backend por medio de la configuración de ejecución `CrudappBackendApplication`  que carga Spring Boot. Si no se carga automaticamente, debes crear el punto de ejecución agregando una nueva configuración de Spring Boot, especificando el sdk del proyecto y el archivo main de ejecución alojado en `com.app.crudappbackend.CrudappBackendApplication`.
 
